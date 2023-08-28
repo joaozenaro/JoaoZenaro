@@ -23,4 +23,5 @@ Seeking to improve my abilities in:
   <a href="https://replit.com/@joaomarcelo36" target="_blank"><img src="https://img.shields.io/badge/Replit-DD1200?style=for-the-badge&logo=Replit&logoColor=white" target="_blank"></a> 
   <a href="https://stackblitz.com/@JoaoZenaro" target="_blank"><img src="https://img.shields.io/badge/Stackblitz-fff?style=for-the-badge&logo=Stackblitz&logoColor=1389FD" target="_blank"></a> 
   <a href="https://www.freecodecamp.org/JoaoZenaro" target="_blank"><img src="https://img.shields.io/badge/Freecodecamp-%23123.svg?&style=for-the-badge&logo=freecodecamp&logoColor=green" target="_blank"></a> 
+  <a href="https://codepen.io/joaozenaro" target="_blank"><img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" target="_blank"></a> 
 </div>
