@@ -1,5 +1,8 @@
 # Hello there! <img  src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"></h1>
 
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/JoaoZenaro/JoaoZenaro/blob/main/README.md)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/JoaoZenaro/JoaoZenaro/blob/main/README.pt-br.md)
+
 My name is _João_ (John?) Zenaro, a Computer Science student 📚 currently working with .NET (Framework) 👨‍💻  
 Seeking to improve my abilities in:
 
