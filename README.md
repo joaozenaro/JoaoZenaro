@@ -18,7 +18,7 @@ Seeking to improve my abilities in:
 
 ### Reach out! 📫 (+ My other stuff 🖱️)
 <div> 
-  <a href="mailto: jmz100@hotmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="mailto:jmz100@hotmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://br.linkedin.com/in/jo%C3%A3o-marcelo-zenaro-630aba211" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   <a href="https://replit.com/@joaomarcelo36" target="_blank"><img src="https://img.shields.io/badge/Replit-DD1200?style=for-the-badge&logo=Replit&logoColor=white" target="_blank"></a> 
   <a href="https://stackblitz.com/@JoaoZenaro" target="_blank"><img src="https://img.shields.io/badge/Stackblitz-fff?style=for-the-badge&logo=Stackblitz&logoColor=1389FD" target="_blank"></a> 
