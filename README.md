@@ -10,11 +10,8 @@ Seeking to improve my abilities in:
 > Just to name a few... 😋
 
 ### My GH stats 🧮
-<div>
-<a href="https://github.com/JoaoZenaro">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=JoaoZenaro&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoaoZenaro&layout=compact&langs_count=16&theme=dracula"/>
-<div>
+
+[![Joaoz's GitHub stats](https://github-readme-stats.vercel.app/api?username=JoaoZenaro&show_icons=true&theme=dracula)](https://github.com/JoaoZenaro/JoaoZenaro)
 
 ### Reach out! 📫 (+ My other stuff 🖱️)
 <div> 
