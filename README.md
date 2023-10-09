@@ -6,12 +6,17 @@ Seeking to improve my abilities in:
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=white)
 > Just to name a few... 😋
 
 ### My GH stats 🧮
 
-[![Joaoz's GitHub stats](https://github-readme-stats.vercel.app/api?username=JoaoZenaro&show_icons=true&theme=dracula)](https://github.com/JoaoZenaro/JoaoZenaro)
+<a href="https://github.com/JoaoZenaro">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=JoaoZenaro&show_icons=true&theme=tokyonight&hide=stars,issues,contribs&show_icons=true&show=prs_merged_percentage" />
+</a>
+<a href="https://github.com/JoaoZenaro">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoaoZenaro&show_icons=true&theme=tokyonight&layout=compact&langs_count=12" />
+</a>
 
 ### Reach out! 📫 (+ My other stuff 🖱️)
 <div> 
