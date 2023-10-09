@@ -12,7 +12,7 @@ Seeking to improve my abilities in:
 ### My GH stats 🧮
 
 <a href="https://github.com/JoaoZenaro">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=JoaoZenaro&show_icons=true&theme=tokyonight&hide=stars,issues,contribs&show_icons=true&show=prs_merged_percentage" />
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=JoaoZenaro&show_icons=true&theme=tokyonight&hide=stars,contribs&show_icons=true&show=prs_merged_percentage" />
 </a>
 <a href="https://github.com/JoaoZenaro">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoaoZenaro&show_icons=true&theme=tokyonight&layout=compact&langs_count=12&card_width=320" />
