@@ -28,9 +28,7 @@ I'm a <strong>full-stack developer</strong> mostly working with: <i>C#</i>, <i>J
 
 ## 🚀 Live Bogosort Status
 
-![Bogosort Status](./bogosort-status.svg)
+<!-- BOGOSORT-STATUS-START -->
+<!-- BOGOSORT-STATUS-END -->
 
-Processing...
-Attempts: 1}
-
-![Run Bogosort](https://img.shields.io/badge/Run%20Bogosort-Click%20Here-brightgreen?logo=github-actions&style=for-the-badge)](https://github.com/JoaoZenaro/JoaoZenaro/actions/workflows/bogosort.yml)
+[![Bogosort Runner](https://github.com/joaozenaro/JoaoZenaro/actions/workflows/main.yml/badge.svg)](https://github.com/joaozenaro/JoaoZenaro/actions/workflows/main.yml)

@@ -32,7 +32,7 @@ jobs:
         run: node generate-status-svg.js
 
       - name: Update README with status
-        run: cat bogosort-status.md >> README.md
+        run: node update-readme.js
 
       - name: Commit changes
         run: |

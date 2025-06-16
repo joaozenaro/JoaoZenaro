@@ -38,10 +38,7 @@ const statusMarkdown = `
 ![Bogosort Status](./bogosort-status.svg)
 
 ${sorted ? "IT ACTUALLY SOLVED IT!" : "Processing..."}
-Attempts: ${attempts}
-
-[![Bogosort Runner](https://github.com/joaozenaro/JoaoZenaro/actions/workflows/main.yml/badge.svg)](https://github.com/joaozenaro/JoaoZenaro/actions/workflows/main.yml)
-`; 
+Attempts: ${attempts}`; 
 
 fs.writeFileSync("bogosort-status.svg", svg);
 fs.writeFileSync("bogosort-status.md", statusMarkdown);
