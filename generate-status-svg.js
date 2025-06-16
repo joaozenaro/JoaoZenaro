@@ -15,12 +15,22 @@ const svgColumns = [];
 for (let x = 0; x < cols; x++) {
     const barHeight = array[x] * scale;
     const y = height - barHeight;
-    svgColumns.push(`<rect width="${colWidth}" height="${barHeight}" x="${x * colWidth}" y="${y}" fill="white" />`);
+    svgColumns.push(`<rect width="${colWidth}" height="${barHeight}" x="${x * colWidth}" y="${y}" />`);
 }
 
 const svg = `
 <svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">
-    ${svgColumns.join("\n")}
+<style>
+rect {
+    fill: black;
+}
+@media (prefers-color-scheme: dark) {
+    rect {
+        fill: white;
+    }
+}
+</style>
+${svgColumns.join("\n")}
 </svg>
 `;
 
@@ -28,9 +38,9 @@ const statusMarkdown = `
 ![Bogosort Status](./bogosort-status.svg)
 
 ${sorted ? "IT ACTUALLY SOLVED IT!" : "Processing..."}
-Attempts: ${attempts}}
+Attempts: ${attempts}
 
-![Run Bogosort](https://img.shields.io/badge/Run%20Bogosort-Click%20Here-brightgreen?logo=github-actions&style=for-the-badge)](https://github.com/JoaoZenaro/JoaoZenaro/actions/workflows/bogosort.yml)
+[![Bogosort Runner](https://github.com/joaozenaro/JoaoZenaro/actions/workflows/main.yml/badge.svg)](https://github.com/joaozenaro/JoaoZenaro/actions/workflows/main.yml)
 `; 
 
 fs.writeFileSync("bogosort-status.svg", svg);
