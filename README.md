@@ -25,3 +25,5 @@ I'm a <strong>full-stack developer</strong> mostly working with: <i>C#</i>, <i>J
 <a href="https://github.com/JoaoZenaro">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoaoZenaro&show_icons=true&theme=tokyonight&layout=compact&langs_count=12&card_width=320" />
 </a>
+
+## 🚀 Live Bogosort Status

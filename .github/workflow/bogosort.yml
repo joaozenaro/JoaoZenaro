@@ -1,0 +1,35 @@
+name: Bogosort Runner
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+jobs:
+  run-bogosort:
+    runs-on: ubuntu-latest
+    container: node:20-alpine
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run bogosort
+        run: node bogosort.js
+
+      - name: Generate SVG
+        run: node generate-status-svg.js
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add bogosort-status.svg
+          git commit -m "Bogosort update" || echo "No changes"
+          git push
+
+      - name: Update README with status
+        run: |
+          awk '/<!-- BEGIN_BOGOSORT_STATUS -->/{flag=1;print;next}/<!-- END_BOGOSORT_STATUS -->/{flag=0}flag{next}1' README.md > README.tmp
+          awk '/<!-- BEGIN_BOGOSORT_STATUS -->/{print;system("cat bogosort-status.md");next}/<!-- END_BOGOSORT_STATUS -->/{print;next}{print}' README.tmp > README.md
