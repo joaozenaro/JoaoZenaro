@@ -19,11 +19,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      - name: Debug git status
-        run: |
-          pwd
-          ls -la
-          git status
+      - name: Fix git ownership
+        run: git config --global --add safe.directory $GITHUB_WORKSPACE
 
       - name: Run bogosort
         run: node bogosort.js
