@@ -36,4 +36,4 @@ Processing...
 Attempts: 1
 <!-- BOGOSORT-STATUS-END -->
 
-[![Bogosort Runner](https://github.com/joaozenaro/JoaoZenaro/actions/workflows/main.yml/badge.svg)](https://github.com/joaozenaro/JoaoZenaro/actions/workflows/main.yml)
+[![Bogosort Runner](https://github.com/joaozenaro/JoaoZenaro/actions/workflows/main.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/joaozenaro/JoaoZenaro/actions/workflows/main.yml)
