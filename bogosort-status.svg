@@ -1,23 +1,23 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="200">
-    <rect width="40" height="130" x="0" y="70" fill="white" />
-<rect width="40" height="40" x="40" y="160" fill="white" />
-<rect width="40" height="50" x="80" y="150" fill="white" />
-<rect width="40" height="170" x="120" y="30" fill="white" />
-<rect width="40" height="160" x="160" y="40" fill="white" />
-<rect width="40" height="140" x="200" y="60" fill="white" />
+    <rect width="40" height="120" x="0" y="80" fill="white" />
+<rect width="40" height="170" x="40" y="30" fill="white" />
+<rect width="40" height="40" x="80" y="160" fill="white" />
+<rect width="40" height="200" x="120" y="0" fill="white" />
+<rect width="40" height="180" x="160" y="20" fill="white" />
+<rect width="40" height="190" x="200" y="10" fill="white" />
 <rect width="40" height="10" x="240" y="190" fill="white" />
-<rect width="40" height="90" x="280" y="110" fill="white" />
-<rect width="40" height="60" x="320" y="140" fill="white" />
-<rect width="40" height="80" x="360" y="120" fill="white" />
-<rect width="40" height="150" x="400" y="50" fill="white" />
-<rect width="40" height="100" x="440" y="100" fill="white" />
-<rect width="40" height="110" x="480" y="90" fill="white" />
-<rect width="40" height="180" x="520" y="20" fill="white" />
-<rect width="40" height="120" x="560" y="80" fill="white" />
-<rect width="40" height="70" x="600" y="130" fill="white" />
-<rect width="40" height="30" x="640" y="170" fill="white" />
-<rect width="40" height="20" x="680" y="180" fill="white" />
-<rect width="40" height="200" x="720" y="0" fill="white" />
-<rect width="40" height="190" x="760" y="10" fill="white" />
+<rect width="40" height="80" x="280" y="120" fill="white" />
+<rect width="40" height="150" x="320" y="50" fill="white" />
+<rect width="40" height="90" x="360" y="110" fill="white" />
+<rect width="40" height="110" x="400" y="90" fill="white" />
+<rect width="40" height="20" x="440" y="180" fill="white" />
+<rect width="40" height="60" x="480" y="140" fill="white" />
+<rect width="40" height="100" x="520" y="100" fill="white" />
+<rect width="40" height="130" x="560" y="70" fill="white" />
+<rect width="40" height="50" x="600" y="150" fill="white" />
+<rect width="40" height="160" x="640" y="40" fill="white" />
+<rect width="40" height="70" x="680" y="130" fill="white" />
+<rect width="40" height="140" x="720" y="60" fill="white" />
+<rect width="40" height="30" x="760" y="170" fill="white" />
 </svg>

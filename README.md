@@ -27,3 +27,10 @@ I'm a <strong>full-stack developer</strong> mostly working with: <i>C#</i>, <i>J
 </a>
 
 ## 🚀 Live Bogosort Status
+
+![Bogosort Status](./bogosort-status.svg)
+
+Processing...
+Attempts: 1}
+
+![Run Bogosort](https://img.shields.io/badge/Run%20Bogosort-Click%20Here-brightgreen?logo=github-actions&style=for-the-badge)](https://github.com/JoaoZenaro/JoaoZenaro/actions/workflows/bogosort.yml)
