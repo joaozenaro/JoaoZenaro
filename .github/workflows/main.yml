@@ -2,7 +2,7 @@ name: Bogosort Runner
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -38,6 +38,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add bogosort-status.svg README.md
+          git add bogosort-status.svg README.md bogosort-attempts.json
           git commit -m "Bogosort update" || echo "No changes"
-          git push
+          git pull --rebase
+          git push || echo "Push failed"
