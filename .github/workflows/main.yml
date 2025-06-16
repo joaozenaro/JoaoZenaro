@@ -18,9 +18,11 @@ jobs:
 
       - name: Run bogosort
         run: node bogosort.js
+        working-directory: ${{ github.workspace }}
 
       - name: Generate SVG
         run: node generate-status-svg.js
+        working-directory: ${{ github.workspace }}
 
       - name: Commit changes
         run: |
@@ -29,8 +31,10 @@ jobs:
           git add bogosort-status.svg
           git commit -m "Bogosort update" || echo "No changes"
           git push
+        working-directory: ${{ github.workspace }}
 
       - name: Update README with status
         run: |
           awk '/<!-- BEGIN_BOGOSORT_STATUS -->/{flag=1;print;next}/<!-- END_BOGOSORT_STATUS -->/{flag=0}flag{next}1' README.md > README.tmp
           awk '/<!-- BEGIN_BOGOSORT_STATUS -->/{print;system("cat bogosort-status.md");next}/<!-- END_BOGOSORT_STATUS -->/{print;next}{print}' README.tmp > README.md
+        working-directory: ${{ github.workspace }}
