@@ -16,12 +16,7 @@ jobs:
     steps:
       - name: Install git and GitHub CLI
         run: |
-          apk add --no-cache git
-          # Install GitHub CLI
-          wget -qO- https://cli.github.com/packages/githubcli-archive-keyring.gpg | tee /etc/apk/keys/githubcli-archive-keyring.gpg > /dev/null
-          echo "https://cli.github.com/packages/apk main" | tee /etc/apk/repositories/github-cli.list
-          apk update
-          apk add --no-cache gh
+          apk add --no-cache git github-cli
 
       - name: Checkout repository
         uses: actions/checkout@v4
