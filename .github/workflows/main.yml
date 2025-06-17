@@ -7,14 +7,21 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   run-bogosort:
     runs-on: ubuntu-latest
     container: node:20-alpine
     steps:
-      - name: Install git
-        run: apk add --no-cache git
+      - name: Install git and GitHub CLI
+        run: |
+          apk add --no-cache git
+          # Install GitHub CLI
+          wget -qO- https://cli.github.com/packages/githubcli-archive-keyring.gpg | tee /etc/apk/keys/githubcli-archive-keyring.gpg > /dev/null
+          echo "https://cli.github.com/packages/apk main" | tee /etc/apk/repositories/github-cli.list
+          apk update
+          apk add --no-cache gh
 
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -42,3 +49,16 @@ jobs:
           git commit -m "Bogosort update" || echo "No changes"
           git pull --rebase
           git push || echo "Push failed"
+
+      - name: Delete old workflow runs
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          WORKFLOW_NAME="${{ github.workflow }}"
+          
+          # List runs for the current workflow, excluding the current run.
+          # We sort by created, take the first 50, skip the current run (and perhaps a few others for safety),
+          # extract their IDs, and then delete them.
+          # Limiting to 50 runs to process helps prevent rate-limiting issues.
+          gh run list --workflow="${WORKFLOW_NAME}" --json databaseId,status,conclusion,event,name,headBranch --jq '.[] | select(.status != "in_progress") | .databaseId' --limit 50 | tail -n +2 | xargs -r -n 1 gh run delete
