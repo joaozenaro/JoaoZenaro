@@ -10,8 +10,8 @@ Let's connect! <a href="https://linkedin.com/in/joaozenaro" target="_blank">link
 ## 📊 Stats
 <p align="center">
 <a href="https://github.com/JoaoZenaro">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=JoaoZenaro&show_icons=true&theme=tokyonight&hide=stars,contribs&show_icons=true&show=prs_merged_percentage" />
-</a>  
+  <img src="https://github-readme-stats.vercel.app/api?username=JoaoZenaro&include_all_commits=true&show_icons=true&theme=tokyonight&hide=stars,contribs" />
+</a>
 </p>
 
 ## 🤖 Fun Fact
