@@ -1,32 +1,21 @@
-# <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> $\text{Hey, I'm }  {\color{green}John}!$
-> Well... technically it's *João*, kind of like *"Zhoh-ow"*.  
-> If that’s a mouthful, feel free to stick with *John* 😋
+# <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> $\text{Hey! Nice to see you.}!$
+
+I'm John, backend developer [@Bellosoft](https://bellosoft.com/) from <img src="https://GlobalArtInc.github.io/round-flags/flags/br.svg" width="16"> Brazil.
+> *Well... technically the name is João, kind of like "Zhoh-ow"*. John or Marcel works fine.
 
 <p align="center">
-I'm a <strong>full-stack developer</strong> mostly working with: <i>C#</i>, <i>Javascript</i>, and whatever gets the job done.
-<br>
-<br>
-✨ <i>Here's some of my stuff</i> ✨
-<br>
-<br>
-<a href="mailto:jmz100@hotmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-<a href="https://br.linkedin.com/in/joaozenaro" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-<a href="https://replit.com/@joaomarcelo36" target="_blank"><img src="https://img.shields.io/badge/Replit-DD1200?style=for-the-badge&logo=Replit&logoColor=white" target="_blank"></a> 
-<a href="https://stackblitz.com/@JoaoZenaro" target="_blank"><img src="https://img.shields.io/badge/Stackblitz-fff?style=for-the-badge&logo=Stackblitz&logoColor=1389FD" target="_blank"></a> 
-<a href="https://www.freecodecamp.org/JoaoZenaro" target="_blank"><img src="https://img.shields.io/badge/Freecodecamp-%23123.svg?&style=for-the-badge&logo=freecodecamp&logoColor=green" target="_blank"></a> 
-<a href="https://codepen.io/joaozenaro" target="_blank"><img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" target="_blank"></a>
-<a href="https://editor.p5js.org/joaomarcelo661/sketches" target="_blank"><img src="https://img.shields.io/badge/p5.js-ED225D?style=for-the-badge&logo=p5.js&logoColor=FFFFFF" target="_blank"></a>
+Let's connect! <a href="https://linkedin.com/in/joaozenaro" target="_blank">linkedin.com/in/joaozenaro</a>
 </p>
 
 ## 📊 Stats
+<p align="center">
 <a href="https://github.com/JoaoZenaro">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=JoaoZenaro&show_icons=true&theme=tokyonight&hide=stars,contribs&show_icons=true&show=prs_merged_percentage" />
-</a>
-<a href="https://github.com/JoaoZenaro">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoaoZenaro&show_icons=true&theme=tokyonight&layout=compact&langs_count=12&card_width=320" />
-</a>
+</a>  
+</p>
 
-## 🚀 Live Bogosort Status
+## 🤖 Fun Fact
+For no reason at all I have a GitHub Action trying to sort an array using Bogosort! Has it succeeded yet?
 
 <!-- BOGOSORT-STATUS-START -->
 
