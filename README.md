@@ -10,7 +10,7 @@ Let's connect! <a href="https://linkedin.com/in/joaozenaro" target="_blank">link
 ## 📊 Stats *WIP*
 <p align="center">
 <a href="https://github.com/JoaoZenaro">
-  <img src="https://github-readme-stats.vercel.app/api?username=JoaoZenaro&show_icons=true&theme=tokyonight&hide=stars,contribs&include_all_commits=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=JoaoZenaro&show_icons=true&theme=tokyonight&hide=stars,contribs" />
 </a>
 </p>
 
