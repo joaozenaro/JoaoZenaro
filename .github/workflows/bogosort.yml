@@ -28,13 +28,13 @@ jobs:
         run: git config --global --add safe.directory $GITHUB_WORKSPACE
 
       - name: Run bogosort
-        run: node bogosort.js
+        run: node bogosort/bogosort.js
 
       - name: Generate SVG
-        run: node generate-status-svg.js
+        run: node bogosort/generate-status-svg.js
 
       - name: Update README with status
-        run: node update-readme.js
+        run: node bogosort/update-readme.js
 
       - name: Commit changes
         run: |

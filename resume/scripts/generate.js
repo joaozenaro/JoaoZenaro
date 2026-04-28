@@ -7,14 +7,6 @@ import MarkdownItDeflist from 'markdown-it-deflist';
 import LinkAttributes from 'markdown-it-link-attributes';
 import frontmatter from '@renovamen/front-matter';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-const mdFile = path.join(__dirname, process.argv[2]);
-const cssFile = path.join(__dirname, 'style.css');
-const outputFile = path.join(__dirname, 'index.html');
-
-// Initialize MarkdownIt
 const md = new MarkdownIt({ html: true });
 md.use(MarkdownItDeflist);
 md.use(LinkAttributes, {
@@ -59,7 +51,7 @@ const resolveHeader = (html, attributes) => {
   return `<div class="resume-header">${header}</div>\n` + html;
 };
 
-export const generate = () => {
+export const generate = (mdFile, cssFile, outputFile) => {
   try {
     let mdContent = fs.readFileSync(mdFile, 'utf-8');
     const cssContent = fs.readFileSync(cssFile, 'utf-8');
@@ -105,14 +97,26 @@ export const generate = () => {
 </html>
 `;
 
+    const outDir = path.dirname(outputFile);
+    if (!fs.existsSync(outDir)) {
+      fs.mkdirSync(outDir, { recursive: true });
+    }
+
     fs.writeFileSync(outputFile, finalHtml);
-    console.log('Successfully generated index.html');
+    console.log(`Successfully generated ${outputFile}`);
   } catch (err) {
-    console.error('Error generating index.html:', err);
+    console.error(`Error generating ${outputFile}:`, err);
   }
 };
 
 // Run if called directly
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
-  generate();
+  const __filename = fileURLToPath(import.meta.url);
+  const __dirname = path.dirname(__filename);
+  
+  const mdFile = path.join(__dirname, '..', 'src', process.argv[2] || 'resume.en.md');
+  const cssFile = path.join(__dirname, '..', 'src', 'style.css');
+  const outputFile = path.join(__dirname, '..', 'dist', 'index.html');
+  
+  generate(mdFile, cssFile, outputFile);
 }
