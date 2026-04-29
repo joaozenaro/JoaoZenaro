@@ -25,4 +25,4 @@ Processing...
 Attempts: 1319
 <!-- BOGOSORT-STATUS-END -->
 
-[![Bogosort Runner](https://github.com/joaozenaro/JoaoZenaro/actions/workflows/main.yml/badge.svg)](https://github.com/joaozenaro/JoaoZenaro/actions/workflows/main.yml)
+[![Bogosort Runner](https://github.com/joaozenaro/JoaoZenaro/actions/workflows/bogosort.yml/badge.svg)](https://github.com/joaozenaro/JoaoZenaro/actions/workflows/bogosort.yml)
