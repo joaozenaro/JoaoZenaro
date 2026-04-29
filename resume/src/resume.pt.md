@@ -17,7 +17,7 @@ Videira, SC, Brasil
 : **Bellosoft**
 : **Out 2023 - Presente**
 
-- Liderei esforços de desenvolvimento na modernização de um sistema de gestão de produção, migrando com sucesso uma implementação legada para um módulo moderno de ERP.
+- Atuei como desenvolvedor chave na modernização de um sistema de gestão de produção, migrando com sucesso uma implementação legada para um módulo moderno de ERP.
 - Desenvolvi integrações de API entre o ERP central e plataformas B2C de e-commerce, garantindo sincronização de dados e desempenho robusto com processamento assíncrono e testes unitários em um pipeline CI/CD no Azure DevOps.
 - Otimizei o desempenho da geração de etiquetas alimentares em 75% por meio de reengenharia completa e integração do módulo ao núcleo do ERP.
 - Projetei e implementei APIs RESTful robustas com ASP.NET Core para viabilizar integrações complexas com terceiros, incluindo soluções de pagamento como Elavon, Stripe e PayPal, além de plataformas contábeis como QuickBooks e Xero.
