@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> $\text{Hey! Nice to see you.}!$
 
-I'm John, backend developer [@Bellosoft](https://bellosoft.com/) from <img src="https://GlobalArtInc.github.io/round-flags/flags/br.svg" width="16"> Brazil.
+I'm John, .NET developer [@Bellosoft](https://bellosoft.com/) from <img src="https://GlobalArtInc.github.io/round-flags/flags/br.svg" width="16"> Brazil.
 > *Well... technically the name is João, kind of like "Zhoh-ow"*. John or Marcel works fine.
 
 <p align="center">
