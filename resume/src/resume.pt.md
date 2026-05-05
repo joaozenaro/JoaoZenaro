@@ -22,8 +22,8 @@ Videira, SC, Brasil
 - Projetei e implementei APIs RESTful robustas com ASP.NET Core para viabilizar integrações complexas com terceiros, incluindo soluções de pagamento como Elavon, Stripe e PayPal, além de plataformas contábeis como QuickBooks e Xero.
 - Desenvolvi integrações de API entre o ERP central e plataformas B2C de e-commerce, garantindo sincronização de dados e desempenho robusto com processamento assíncrono e testes unitários em um pipeline CI/CD no Azure DevOps.
 - Integrei funcionalidades de processamento de documentos via IA, automatizando o tratamento de documentos por meio de jobs em background com Hangfire e loops de feedback com usuários via APIs externas.
-- Mantive a saúde dos ambientes QA diagnosticando falhas em integrações de serviços, sincronização de dados e discrepâncias de comportamento específicas de ambiente, garantindo que os problemas fossem identificados antes de atingir produção.
-- Contribuí para a transição da equipe de instalações tradicionais do Visual Studio para um ambiente de desenvolvimento totalmente containerizado com Docker e devcontainers, melhorando a consistência do ambiente.
+- Mantive a saúde dos ambientes QA diagnosticando falhas em serviços, dados, e discrepâncias em diferentes ambientes, garantindo que os problemas fossem identificados antes de atingir produção.
+- Contribuí para a transição de instalações tradicionais do Visual Studio para um ambiente de desenvolvimento totalmente containerizado com Docker e devcontainers, melhorando a consistência do ambiente.
 - Implementei funcionalidades e mantive soluções legadas em sistemas de produção atendendo clientes no Brasil e na Irlanda.
 
 **Desenvolvedor Web Júnior (.NET)**
@@ -66,7 +66,7 @@ Instituto Federal Catarinense
 **HeatSync (Monitor IoT de temperatura)**
 : [github.com/joaozenaro/heatsync](https://github.com/joaozenaro/heatsync)
 
-Desenvolvi um sistema completo de monitoramento IoT utilizando Next.js e NestJS com arquitetura hexagonal, processando dados de telemetria em tempo real via WebSockets. Configurei hospedagem com Render, Vercel e Supabase.
+Desenvolvi um sistema de monitoramento IoT utilizando Next.js e NestJS com arquitetura hexagonal, processando dados de telemetria em tempo real via WebSockets. Configurei hospedagem com Render, Vercel e Supabase.
 
 ## Habilidades
 
