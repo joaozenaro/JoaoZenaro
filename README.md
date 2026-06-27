@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+Check me out at [jmz.dev.br](https://jmz.dev.br/) | [linkedin.com/in/joaozenaro](https://www.linkedin.com/in/joaozenaro/)
+
 <!--
 **joaozenaro/joaozenaro** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
